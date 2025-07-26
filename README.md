@@ -48,3 +48,12 @@ pip install -r requirements.txt
 - Implementing `Deep Q Learning` with a `Experience Relay Buffer` and `Target Q-Network`
 - Creating reward functions for different environments
 - Implementation on `CartPole-v1` Environment and a custom defined `ChaseEscape` Environment
+
+### [Week 3](./Week3/)
+**Topic:** Double Deep Q Networks  
+**Focus:**
+- Understanding reason behind `instability` in training in Deep Q Netwroks
+- Why `DQN's` lead to `over-estimation` of Q-Values
+- Learning `DDQN's-Double Deep Q Networks` and Understanding how it stabilizes training and reduces overestimation
+- Implementation of DDQN on `ChaseEscape` Environment 
+- `Improving Performance` of `ChaseEscape` Agent using `DDQN` 
