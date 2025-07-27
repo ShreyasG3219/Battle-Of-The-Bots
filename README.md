@@ -27,6 +27,7 @@ pip install -r requirements.txt
 **Topic:** PyTorch Basics  
 **Focus:**
 - Understanding How `PyTorch` Works and Learning about important module and methods like `torch.vision`, `torch.utils.data,`torch.optim` in PyTorch package
+- Understanding `optimizer` an `loss function` process behinf the hood
 - Manual and `nn.Sequential` neural network implementation in PyTorch
 - Introduction to `backpropagation` , Different Type of `Loss Functions` , `Optimizations` and Training Loops
 - Implementing A Neural Network from Scratch to check understanding regarding Backpropagation
@@ -67,3 +68,27 @@ pip install -r requirements.txt
 - Training on `CartPole-v1` environment 
 - Understanding Why `REINFORCE` doesn't work on large action spaces environments
 - Understanding `Variance` related problem in Policy Gradient Method
+
+### [Week 5](./Week5/)
+**Topic:** Actor Critic Method  
+**Focus:**
+- Understanding Advantages and Disadvantages of `Q-Learning` and `Policy Based Learning`
+- Understanding `Bias` and `Variance Trade-off`
+- Learning about `Actor-Critic Method` or `Biased Policy Based Learnin`g , A combination of both `Q-Learning` and `Policy-Based Learning`
+- Learning about `Multi-Head` neural networks
+- Introduction to `Distributed Learning`
+- Implementing `Actor-Critic Method` via `Multi Head Neural Network` in `Cartpole` environment
+
+### Week 6
+**Topic:** Distributed Advantageos Actor Critic Method (DA2C) and Multi Agent Reinforcement Learning (MARL)  
+**Focus:**
+- Undersanding difference between `Multiprocessing` and `Multithreading`
+- Overview of `MultiProcessing Module` in Python
+- Learning About `Distributed Advantageos Actor Critic Method (DA2C)` and understanding why `synchronization` makes training faster
+- `N-step Actor Critic Method` - A tradeoff between `online learning` and `episodic learning`
+- Understanding why these methods aren't scalable for `Multi-Agent Reinforcement Learning`
+- Learning `Neighbourhood Q-Learning`
+- Learning `Mean Field Q-Learning`
+
+### Week 7
+**Topic** Rivision and Wrapping Up
