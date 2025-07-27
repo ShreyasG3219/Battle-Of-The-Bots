@@ -57,3 +57,13 @@ pip install -r requirements.txt
 - Learning `DDQN's-Double Deep Q Networks` and Understanding how it stabilizes training and reduces overestimation
 - Implementation of DDQN on `ChaseEscape` Environment 
 - `Improving Performance` of `ChaseEscape` Agent using `DDQN` 
+
+### [Week 4](./Week4/)
+**Topic:** Policy Gradient Method  
+**Focus:**
+- Understanding difference between `Value-Based Learning` and `Policy Based Learning`
+- Understanding `Policy Gradient Method`
+- Learning and Implementing `REINFORCE` `Policy Gradient Method`
+- Training on `CartPole-v1` environment 
+- Understanding Why `REINFORCE` doesn't work on large action spaces environments
+- Understanding `Variance` related problem in Policy Gradient Method
