@@ -91,4 +91,4 @@ pip install -r requirements.txt
 - Learning `Mean Field Q-Learning`
 
 ### Week 7
-**Topic** Rivision and Wrapping Up
+**Topic:** Rivision and Wrapping Up
